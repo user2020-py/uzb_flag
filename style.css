@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html, body{
+	overflow: hidden;
+	background: linear-gradient(to right, orange, skyblue);
+}
+
+.box{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#flag{
+	height: 500px;
+	width: 1000px;
+	border: 1px solid #000;
+}
+
+#flag > div{
+	width: 100%;
+	height: 33.33333%
+}
+
+#white{
+	border-top: 3px solid red;
+	border-bottom: 3px solid red;
+	background-color: #fff;
+}
+
+#blue{
+	background-color: #2d6cff;
+	padding: 0.5rem;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+#moon > div{
+	width: 145px;
+	height: 135px;
+	border-radius: 50%;
+}
+
+#moon #c1{
+	background-color: #fff;
+}
+
+#moon #c2{
+	background-color: #2d6cff;
+	margin-left: -7rem;
+}
+
+#moon{
+	display: inline-flex;
+}
+
+#blue > div{
+	display: inline-flex;
+	margin-left: 1rem;
+	align-items: center;
+	height: 100%;
+}
+
+#stars{
+	line-height: 45px;
+    font-size: 90px;
+    margin-top: 35px;
+    margin-left: -4rem;
+    text-align: right;
+}
+
+#green{
+	background-color: rgb(35 195 29);
+}
